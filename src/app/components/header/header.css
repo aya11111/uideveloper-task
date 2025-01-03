@@ -1,0 +1,55 @@
+header {
+    margin: 10px
+}
+header svg {
+    height: 15px
+}
+header .search {
+    height: 40px;
+    color: gray
+}
+header .search-input {
+    outline: 1px solid rgb(218, 215, 215);
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+    cursor: pointer;
+}
+header .search-input svg {
+    color: var(--background)
+}
+header .search-input input {
+    outline: none;
+    width: 300px
+}
+header select {
+    outline: 1px solid rgb(218, 215, 215);
+    padding: 5px 10px;
+    height: 100%;
+
+}
+header .icon {
+    background-color: var(--light);
+    padding: 5px 20px;
+    border-radius: 5px 0 0 5px;
+    height: 42px;
+
+}
+header .icon svg {
+    color: var(--background)
+}
+header .header-left {
+    color: gray
+}
+header .header-left button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header-left button svg {
+    color: var(--background)
+}

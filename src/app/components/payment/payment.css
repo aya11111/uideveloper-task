@@ -1,0 +1,141 @@
+.payment {
+    color: var(--background);
+    width: calc(100vw - 350px);
+    margin-right: 320px;
+}
+.payment svg {
+    height: 15px
+}
+.payment .page-link {
+    margin-top: 20px
+}
+.payment .page-link svg {
+    height: 15px
+}
+.payment .page-link div a:last-child {
+    cursor: default;
+    color: rgb(184, 181, 181)
+}
+.payment .page-link .help {
+    padding: 5px 20px;
+    background-color: var(--light);
+    border-radius: 25px;
+}
+
+/* verification */
+.payment .verification {
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.payment .verification .icon {
+    width: 70px;
+    height: 70px;
+    background-color: var(--light);
+    border-radius: 50%;
+}
+.payment .verification .icon svg {
+    height: 25px;
+    color: var(--background);
+}
+.payment .verification h4 {
+    font-weight: bold;
+}
+.payment .verification p {
+    font-size: 15px;
+    color: var(--gray)
+}
+.payment .verification p:last-child {
+    color: rgb(241, 77, 77)
+}
+.payment .verification .left-icon svg {
+    color: var(--gray);
+    height: 25px;
+    cursor: pointer;
+}
+
+/* payment */
+.payment .electronic-payment {
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.payment .electronic-payment img {
+    width: 70px
+}
+.payment .electronic-payment h4 {
+    font-weight: bold;
+}
+.payment .electronic-payment p {
+    font-size: 15px;
+    color: var(--gray)
+}
+.payment .electronic-payment .left-button {
+    color:rgb(241, 77, 77);
+    border: 1px solid rgb(241, 77, 77);
+    padding: 5px 10px;
+    border-radius: 5px
+}
+.payment .electronic-payment .electronic-item {
+    margin-top: 30px
+}
+.payment .electronic-payment .electronic-item svg {
+    color: var(--gray);
+    height: 25px
+}
+.payment .electronic-payment hr {
+    margin: 20px 0
+}
+
+.payment .wallet,
+.payment .buy,
+.payment .accounts {
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.payment .wallet .title,
+.payment .buy .title,
+.payment .accounts .title {
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    color: gray
+}
+.payment .wallet .item,
+.payment .buy .item,
+.payment .accounts .item {
+    padding: 20px
+}
+.payment .wallet .item img,
+.payment .buy .item img {
+    width: 100px;
+
+}
+.payment .wallet .item button,
+.payment  .buy .item button {
+    border: 1px solid #76e8cd;
+    padding: 5px 10px;
+    border-radius: 5px
+}
+.payment .accounts .title button {
+    background-color: #baf3e6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--background)
+}
+.payment .accounts {
+    margin-bottom: 70px
+}
+
+@media (max-width: 768px) {
+    .payment {
+        width: 100vw;
+        margin: 0;
+        padding: 20px
+    }
+}
